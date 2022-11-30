@@ -8435,3 +8435,18 @@ input.main-search-input:-ms-input-placeholder {
 .features.gold{background:#FFF;}
 .features.silver{}
 .features.platinum{background:#FFF;}
+
+a.signupbtn{    background: #00c2cb;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;}
+
+ui.bulletui{}
+ui.bulletui li{}
+.features .features__content li.highlightText{    position: relative;}	
+/*.features .features__content li.highlightText:before{    position: absolute; width:2px; height:2px; background:#000; left:0; top:10px; content:'';}*/	
+
+#videofull{ height:600px; padding-bottom: 200px;    padding-top: 50px;}
+#videofull .videohero{     min-width: 100%;    position: fixed;    top: -65%;    z-index: -9999; }
+#videofull h3{    color: #fff;  font-size: 76px;  font-weight: 700;  text-align: center;  text-transform: uppercase;}
+section{background:#fff;z-index: 9999;}

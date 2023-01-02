@@ -48,7 +48,7 @@
 }
 .card ul li.aval::before {
   font-family: &quot;Font Awesome 5 Free&quot;;
-  content: &quot;Ã¯â‚¬Å’&quot;;
+  content: &quot;ÃƒÂ¯Ã¢â€šÂ¬Ã…â€™&quot;;
   font-weight: 900;
   font-size: 20px;
   color: #197278;
@@ -57,7 +57,7 @@
 }
 .card ul li.unaval::before {
   font-family: &quot;Font Awesome 5 Free&quot;;
-  content: &quot;Ã¯â‚¬Â&quot;;
+  content: &quot;ÃƒÂ¯Ã¢â€šÂ¬Ã‚Â&quot;;
   font-weight: 900;
   font-size: 20px;
   color: #C44536;
@@ -78,7 +78,7 @@
 }
 .card .select::before {
   font-family: &quot;Font Awesome 5 Free&quot;;
-  content: &quot;Ã¯ÂÂº&quot;;
+  content: &quot;ÃƒÂ¯Ã‚ÂÃ‚Âº&quot;;
   font-weight: 900;
   margin-right: 15px;
 }
@@ -148,9 +148,60 @@
 .partner-img img{height: 100px;width:auto;}
 
 
+
+
+
+.cardt {
+  width: 100%;
+  height: 324px;
+  float: left;
+  perspective: 500px;
+}
+
+.contentt {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.cardt:hover .contentt {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.frontt,
+.backt {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: au;
+  color: #03446A;
+  text-align: center;
+  /* font-size: 60px; */
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.backt {
+  background: #00c2cb;
+  color: white;
+  transform: rotateY( 180deg );
+  padding: 10px;
+  line-height: 19px;
+}
+
+
 @media only screen and (max-width: 600px) {
  .card{width:100%; display:table; margin:0 auto; box-shadow:none; left:0;}
  video{width:100%;}
+ .col.teamb{width:100%; flex:auto;}
+ .cardt{height:400px;}
+
 }
 
 	

@@ -12,9 +12,9 @@ $(function() {
 		e.preventDefault();
 
 		// Serialize the form data.
-		var formData = $(form).serialize();
+		// var formData = $(form).serialize();
 
-		window.location.replace(`${$(form).attr('action')}?${formData}`);
+		// window.location.replace(`${$(form).attr('action')}?${formData}`);
 
 		// Submit the form using AJAX.
 		// $.ajax({
@@ -45,6 +45,8 @@ $(function() {
 		// 		$(formMessages).text('Oops! An error occured and your message could not be sent.');
 		// 	}
 		// });
+
+		window.location.replace("index.html#pricing");
 	});
 
 });

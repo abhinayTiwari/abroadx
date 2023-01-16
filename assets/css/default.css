@@ -181,7 +181,7 @@
   background: white;
   line-height: au;
   color: #03446A;
-  text-align: center;
+  text-align: justify;
   /* font-size: 60px; */
   border-radius: 5px;
   backface-visibility: hidden;
@@ -200,7 +200,7 @@
  .card{width:100%; display:table; margin:0 auto; box-shadow:none; left:0;}
  video{width:100%;}
  .col.teamb{width:100%; flex:auto;}
- .cardt{height:400px;}
+ .cardt{height:400px; margin-top: 15px;}
 
 }
 
